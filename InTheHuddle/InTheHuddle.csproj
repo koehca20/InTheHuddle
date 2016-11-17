@@ -68,6 +68,11 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\TeamList.axml" />
+    <AndroidResource Include="Resources\layout\RuleList.axml" />
+    <AndroidResource Include="Resources\layout\RuleDetail.axml" />
+    <AndroidResource Include="Resources\layout\TeamDetail.axml" />
+    <AndroidResource Include="Resources\layout\ListItem.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
