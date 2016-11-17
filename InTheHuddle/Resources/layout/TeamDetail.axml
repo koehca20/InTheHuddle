@@ -7,6 +7,7 @@
     android:minHeight="25px">
     <android.webkit.WebView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/webView1" />
+        android:layout_height="match_parent"
+        android:id="@+id/webView1"
+        android:clipChildren="true" />
 </LinearLayout>
