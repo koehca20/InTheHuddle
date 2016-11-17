@@ -40,24 +40,11 @@ namespace InTheHuddle
 			// aapt resource value: 0x7f050002
 			public const int abc_grow_fade_in_from_bottom = 2131034114;
 			
-			// aapt resource value: 0x7f050007
-			public const int RuleListWebView = 2131034119;
-			
 			// aapt resource value: 0x7f050003
 			public const int abc_popup_enter = 2131034115;
 			
 			// aapt resource value: 0x7f050004
-<<<<<<< Updated upstream
-			public const int distanceTextView = 2131034116;
-			
-			// aapt resource value: 0x7f050001
-			public const int linearLayout1 = 2131034113;
-			
-			// aapt resource value: 0x7f050008
-			public const int listView1 = 2131034120;
-=======
 			public const int abc_popup_exit = 2131034116;
->>>>>>> Stashed changes
 			
 			// aapt resource value: 0x7f050005
 			public const int abc_shrink_fade_out_from_bottom = 2131034117;
@@ -1433,6 +1420,9 @@ namespace InTheHuddle
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0c0064
+			public const int RuleListWebView = 2131492964;
+			
 			// aapt resource value: 0x7f0c0056
 			public const int action0 = 2131492950;
 			
@@ -1574,8 +1564,8 @@ namespace InTheHuddle
 			// aapt resource value: 0x7f0c0009
 			public const int listMode = 2131492873;
 			
-			// aapt resource value: 0x7f0c0064
-			public const int listView1 = 2131492964;
+			// aapt resource value: 0x7f0c0065
+			public const int listView1 = 2131492965;
 			
 			// aapt resource value: 0x7f0c0028
 			public const int list_item = 2131492904;
