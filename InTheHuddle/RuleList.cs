@@ -15,8 +15,8 @@ namespace InTheHuddle
 			// Create your application here
 			SetContentView(Resource.Layout.RuleList);
 
-			WebView RuleListWebView = FindViewById<WebView>(Resource.Id.RuleListWebView);
-			// the below code opens a local html file within the assets
+			//WebView RuleListWebView = FindViewById<WebView>(Resource.Id.RuleListWebView);
+			//the below code opens a local html file within the assets
 			//RuleListWebView.LoadUrl("file:///android_asset/Content/Home.html");
 		}
 	}
