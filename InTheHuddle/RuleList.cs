@@ -2,22 +2,26 @@
 using Android.Widget;
 using Android.OS;
 using Android.Webkit;
+using Android.Content;
+using Java.IO;
 
 namespace InTheHuddle
 {
-	[Activity(Label = "RuleList")]
-	public class RuleList : Activity
+	[Activity(Label = "NFL Rules")]
+	public class RuleList : ListActivity
 	{
+		string[] items;
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 
-			// Create your application here
-			SetContentView(Resource.Layout.RuleList);
+			items = new string[] { "Rule 1", "Rule 2", "Rule 3", "Rule 4", "Rule 5", "Rule 6" };
+			ListAdapter = new ListAdapter(this, items);
+		}
 
-			//WebView RuleListWebView = FindViewById<WebView>(Resource.Id.RuleListWebView);
-			//the below code opens a local html file within the assets
-			//RuleListWebView.LoadUrl("file:///android_asset/Content/Home.html");
+		protected override void OnListItemClick(ListView l, Android.Views.View v, int position, long id)
+		{
+			StartActivity(typeof(RuleDetailActivity));
 		}
 	}
 }

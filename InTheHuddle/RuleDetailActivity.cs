@@ -14,14 +14,14 @@ using Android.Widget;
 
 namespace InTheHuddle
 {
-	[Activity(Label = "DetailActivity")]
-	public class DetailActivity : Activity
+	[Activity(Label = "")]
+	public class RuleDetailActivity : Activity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 
-			SetContentView(Resource.Layout.TeamDetail);
+			SetContentView(Resource.Layout.RuleDetail);
 
 			WebView lWebView = (WebView)FindViewById(Resource.Id.webView1);
 			lWebView.LoadUrl("file:///android_asset/test.html");

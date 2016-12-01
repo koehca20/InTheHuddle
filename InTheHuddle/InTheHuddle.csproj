@@ -54,9 +54,11 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuleList.cs" />
-    <Compile Include="DetailActivity.cs" />
+    <Compile Include="RuleDetailActivity.cs" />
     <Compile Include="TeamList.cs" />
     <Compile Include="Score.cs" />
+    <Compile Include="TeamDetailActivity.cs" />
+    <Compile Include="ListAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -76,7 +78,6 @@
     <AndroidResource Include="Resources\layout\RuleList.axml" />
     <AndroidResource Include="Resources\layout\RuleDetail.axml" />
     <AndroidResource Include="Resources\layout\TeamDetail.axml" />
-    <AndroidResource Include="Resources\layout\ListItem.axml" />
     <AndroidResource Include="Resources\layout\ScoreDetail.axml" />
   </ItemGroup>
   <ItemGroup>
