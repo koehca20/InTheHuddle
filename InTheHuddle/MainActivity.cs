@@ -5,7 +5,7 @@ using Android.Webkit;
 
 namespace InTheHuddle
 {
-	[Activity(Label = "InTheHuddle", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity(Label = "In The Huddle", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 

@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +23,7 @@ namespace InTheHuddle
 			SetContentView(Resource.Layout.TeamDetail);
 
 			WebView lWebView = (WebView)FindViewById(Resource.Id.webView1);
-			lWebView.LoadUrl("file:///android_asset/test.html");
+			lWebView.LoadUrl("file:///android_asset/AFCEast.html");
 		}
 	}
 }

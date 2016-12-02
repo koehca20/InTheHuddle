@@ -24,7 +24,7 @@ namespace InTheHuddle
 			SetContentView(Resource.Layout.RuleDetail);
 
 			WebView lWebView = (WebView)FindViewById(Resource.Id.webView1);
-			lWebView.LoadUrl("file:///android_asset/test.html");
+			lWebView.LoadUrl("file:///android_asset/Glossary.html");
 		}
 	}
 }

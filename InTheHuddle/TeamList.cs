@@ -15,7 +15,7 @@ namespace InTheHuddle
 		{
 			base.OnCreate(savedInstanceState);
 
-			items = new string[] { "Team 1", "Team 2", "Team 3", "Team 4", "Team 5", "Team 6" };
+			items = new string[] { "AFC North", "AFC East", "AFC South", "AFC West", "NFC North", "NFC East", "NFC South", "NFC West" };
 			ListAdapter = new ListAdapter(this, items);
 		}
 

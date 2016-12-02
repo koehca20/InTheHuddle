@@ -84,8 +84,16 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\test.html" />
+    <AndroidAsset Include="Assets\Glossary.html" />
     <AndroidAsset Include="Assets\default.css" />
+    <AndroidAsset Include="Assets\NFCNorth.html" />
+    <AndroidAsset Include="Assets\NFCSouth.html" />
+    <AndroidAsset Include="Assets\NFCEast.html" />
+    <AndroidAsset Include="Assets\NFCWest.html" />
+    <AndroidAsset Include="Assets\AFCEast.html" />
+    <AndroidAsset Include="Assets\AFCWest.html" />
+    <AndroidAsset Include="Assets\AFCNorth.html" />
+    <AndroidAsset Include="Assets\AFCSouth.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
