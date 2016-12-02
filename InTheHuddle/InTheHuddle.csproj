@@ -79,6 +79,7 @@
     <AndroidResource Include="Resources\layout\RuleDetail.axml" />
     <AndroidResource Include="Resources\layout\TeamDetail.axml" />
     <AndroidResource Include="Resources\layout\ScoreDetail.axml" />
+    <AndroidResource Include="Resources\drawable\background.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

@@ -1405,7 +1405,10 @@ namespace InTheHuddle
 			public const int abc_textfield_search_material = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int notification_template_icon_bg = 2130837572;
+			public const int background = 2130837572;
+			
+			// aapt resource value: 0x7f020045
+			public const int notification_template_icon_bg = 2130837573;
 			
 			static Drawable()
 			{
