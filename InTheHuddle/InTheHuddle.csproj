@@ -95,6 +95,8 @@
     <AndroidAsset Include="Assets\AFCWest.html" />
     <AndroidAsset Include="Assets\AFCNorth.html" />
     <AndroidAsset Include="Assets\AFCSouth.html" />
+    <AndroidAsset Include="Assets\Penalties.html" />
+    <AndroidAsset Include="Assets\Player Positions.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
