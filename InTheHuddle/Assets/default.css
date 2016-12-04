@@ -1,4 +1,6 @@
-html,body{margin:0;padding:10px}
-body, p, h1 {
-    color: red;
-}
+html,body{ margin:0;padding:10px; }
+body { background-color: #99FF99;}
+p { color:black;
+	font-family:"Times New Roman";}
+b.big { font-size:14pt;
+		font-style:italic;}
