@@ -7,15 +7,15 @@ using Java.IO;
 
 namespace InTheHuddle
 {
-	[Activity(Label = "NFL Rules")]
-	public class RuleList : ListActivity
+	[Activity(Label = "Player Positions")]
+	public class PlayerPositions : ListActivity
 	{
 		string[] items;
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 
-			items = new string[] { "A-Z Terms Glossary", "Penalties", "Player Positions"};
+			items = new string[] { "Offensive Positions", "Defensive Positions", "Special Positions" };
 			ListAdapter = new ListAdapter(this, items);
 		}
 
@@ -24,13 +24,13 @@ namespace InTheHuddle
 			switch (position)
 			{
 				case 0:
-					StartActivity(typeof(RuleGlossary));
+					StartActivity(typeof(PlayerPositionsDetailActivity));
 					break;
 				case 1:
-					StartActivity(typeof(Penalties));
+					StartActivity(typeof(PlayerPositionsDetailActivity));
 					break;
 				case 2:
-					StartActivity(typeof(PlayerPositions));
+					StartActivity(typeof(PlayerPositionsDetailActivity));
 					break;
 			}
 		}

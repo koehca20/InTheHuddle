@@ -15,7 +15,7 @@ using Android.Widget;
 namespace InTheHuddle
 {
 	[Activity(Label = "")]
-	public class RuleDetailActivity : Activity
+	public class RuleGlossary : Activity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
