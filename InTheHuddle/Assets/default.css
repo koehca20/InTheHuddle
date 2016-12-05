@@ -1,6 +1,11 @@
 html,body{ margin:0;padding:10px; }
-body { background-color: #99FF99;}
+body { background-color: #99CCFF;}
 p { color:black;
 	font-family:"Times New Roman";}
 b.big { font-size:14pt;
 		font-style:italic;}
+.subTitle {  font-weight: bold;
+			 text-align: center;
+			 font-style: italic; }
+.centerImage { display: block;
+    		   margin: 0 auto; }
