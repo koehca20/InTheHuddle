@@ -22,6 +22,7 @@ namespace InTheHuddle
 			SetContentView(Resource.Layout.TeamDetail);
 
 			WebView lWebView = (WebView)FindViewById(Resource.Id.webView1);
+			lWebView.Settings.JavaScriptEnabled = true;
 			lWebView.LoadUrl("file:///android_asset/index.html");
 		}
 	}
