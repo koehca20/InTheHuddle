@@ -23,7 +23,7 @@ namespace InTheHuddle
 
 			WebView lWebView = (WebView)FindViewById(Resource.Id.webView1);
 			lWebView.Settings.JavaScriptEnabled = true;
-			lWebView.LoadUrl("file:///android_asset/index.html");
+			lWebView.LoadUrl("file:///android_asset/Quiz.html");
 		}
 	}
 }

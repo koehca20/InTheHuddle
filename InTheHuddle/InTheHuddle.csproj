@@ -87,7 +87,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\A-Z Terms Glossary.html" />
-    <AndroidAsset Include="Assets\default.css" />
     <AndroidAsset Include="Assets\NFC North.html" />
     <AndroidAsset Include="Assets\NFC South.html" />
     <AndroidAsset Include="Assets\NFC East.html" />
@@ -131,9 +130,10 @@
     <AndroidAsset Include="Assets\Football Teams\Tennessee Titans.png" />
     <AndroidAsset Include="Assets\Football Teams\Washington Redskins.png" />
     <AndroidAsset Include="Assets\Overview.html" />
-    <AndroidAsset Include="Assets\index.html" />
+    <AndroidAsset Include="Assets\Quiz.html" />
     <AndroidAsset Include="Assets\js\index.js" />
     <AndroidAsset Include="Assets\css\style.css" />
+    <AndroidAsset Include="Assets\css\default.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

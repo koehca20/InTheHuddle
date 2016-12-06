@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Javascript Quiz</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <h2 class="quizHeader">Take a Quiz!</h2>
+  
+	<table style="width:100%">
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">1. What team is this?
+	  			<img src="./Football Teams/Atlanta Falcons.png" style="width:150px; height:125px" class="centerImage"/>
+			</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">Atlanta Falcons</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Green Bay Packers</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Arizona Cardinals</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Philedelphia Eagles</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>				
+	  <td>
+	  	<div>
+	  		<p class="question">2. What conference are the Dallas Cowboys in?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>AFC</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">NFC</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>No conference</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>AFL</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">3. How many teams are in the NFL?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>14</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">32</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>20</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>40</label>
+	    	</ul>
+		</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">4. Which of these positions is not a defensive player position?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Safety</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">Running Back</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Corner Back</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>linebacker</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">5. How many points is a touchdown?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>3</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="1">
+	        <label>1</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+			<label id="correctString5">6</label>
+	        <br>
+	        <input class="answer" type="radio" name="q5" value="0">
+	        <label>7</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">6. Which of these positions is not an offensive player position?</p>
+	    	<ul>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>quarterback</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>Wide Receiver</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="1">
+			<label id="correctString6">Safety</label>
+	        <br>
+	        <input class="answer" type="radio" name="q6" value="0">
+	        <label>Tackle</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">7. Which team is this?</p>
+	  		<img src="./Football Teams/Carolina Panthers.png" style="width:150px; height:125px" class="centerImage"/>
+	    	<ul>
+	        <input class="answer" type="radio" name="q7" value="0">
+	        <label>Detroit Lions</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="0">
+	        <label>Tennessee Titans</label>
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="0">
+	        <label>New England Patriots</label>			
+	        <br>
+	        <input class="answer" type="radio" name="q7" value="1">
+			<label id="correctString7">Carolina Panthers</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">8. Which one of these is a penalty?</p>
+	    	<ul>
+	        <input class="answer" type="radio" name="q8" value="0">
+	        <label>Sacking the quarterback</label>
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="0">
+	        <label>Intercepting the ball</label>
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="0">
+	        <label>Running out of bounds</label>			
+	        <br>
+	        <input class="answer" type="radio" name="q8" value="1">
+			<label id="correctString8">Tackling a player by pulling on their face mask</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">9. What city are the bears from?</p>
+	    	<ul>
+	        <input class="answer" type="radio" name="q9" value="1">
+			<label id="correctString9">Chicago</label>
+	        <br>
+	        <input class="answer" type="radio" name="q9" value="0">
+	        <label>Los Angeles</label>
+	        <br>
+	        <input class="answer" type="radio" name="q9" value="0">
+	        <label>New York City</label>			
+	        <br>
+	        <input class="answer" type="radio" name="q9" value="0">
+	        <label>Denver</label>
+			</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">10. How many points is a field goal worth?</p>
+	    	<ul>
+	        <input class="answer" type="radio" name="q10" value="1">
+			<label id="correctString10">3</label>
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="0">
+	        <label>6</label>
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="0">
+	        <label>1</label>			
+	        <br>
+	        <input class="answer" type="radio" name="q10" value="0">
+	        <label>0</label>
+			</ul>
+	  	</div>
+	  </td>
+	</tr>
+	</table>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	<div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+	<div class="quizAnswers" id="correctAnswer5"></div>
+	<div class="quizAnswers" id="correctAnswer6"></div>
+	<div class="quizAnswers" id="correctAnswer7"></div>
+	<div class="quizAnswers" id="correctAnswer8"></div>
+	<div class="quizAnswers" id="correctAnswer9"></div>
+	<div class="quizAnswers" id="correctAnswer10"></div>
+
+<!--show score upon submit-->
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+
+</body>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
