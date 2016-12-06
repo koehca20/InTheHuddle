@@ -15,7 +15,7 @@ namespace InTheHuddle
 		{
 			base.OnCreate(savedInstanceState);
 
-			items = new string[] { "A-Z Terms Glossary", "Penalties", "Player Positions"};
+			items = new string[] { "Overview","A-Z Terms Glossary", "Penalties", "Player Positions"};
 			ListAdapter = new ListAdapter(this, items);
 		}
 
