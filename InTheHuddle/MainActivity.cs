@@ -39,6 +39,14 @@ namespace InTheHuddle
 			{
 				StartActivity(typeof(TeamList));
 			};
+
+			//find quiz button on main layout
+			Button quizButton = FindViewById<Button>(Resource.Id.quizButton);
+			//attach activity, when teams button is clicked -- send to team list activity
+			quizButton.Click += delegate
+			{
+				StartActivity(typeof(Quiz));
+			};
 		}
 	}
 }
