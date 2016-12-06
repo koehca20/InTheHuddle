@@ -1423,6 +1423,9 @@ namespace InTheHuddle
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f0c0064
+			public const int ScoreVideoView = 2131492964;
+			
 			// aapt resource value: 0x7f0c0054
 			public const int action0 = 2131492948;
 			
@@ -1599,9 +1602,6 @@ namespace InTheHuddle
 			
 			// aapt resource value: 0x7f0c0050
 			public const int rulesButton = 2131492944;
-			
-			// aapt resource value: 0x7f0c0064
-			public const int scoreDetailWebView = 2131492964;
 			
 			// aapt resource value: 0x7f0c0051
 			public const int scoringButton = 2131492945;
