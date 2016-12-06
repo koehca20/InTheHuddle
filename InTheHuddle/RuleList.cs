@@ -21,18 +21,12 @@ namespace InTheHuddle
 
 		protected override void OnListItemClick(ListView l, Android.Views.View v, int position, long id)
 		{
-			switch (position)
-			{
-				case 0:
-					StartActivity(typeof(RuleGlossary));
-					break;
-				case 1:
-					StartActivity(typeof(Penalties));
-					break;
-				case 2:
-					StartActivity(typeof(PlayerPositions));
-					break;
-			}
+
+			var activity2 = new Intent(this, typeof(RuleDetailActivity));
+			activity2.PutExtra("My Data",l.GetItemAtPosition(position).ToString());
+
+			StartActivity(activity2);
+
 		}
 	}
 }

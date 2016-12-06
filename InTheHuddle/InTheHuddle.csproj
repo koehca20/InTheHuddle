@@ -54,14 +54,11 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RuleList.cs" />
-    <Compile Include="RuleGlossary.cs" />
+    <Compile Include="RuleDetailActivity.cs" />
     <Compile Include="TeamList.cs" />
     <Compile Include="Score.cs" />
     <Compile Include="TeamDetailActivity.cs" />
     <Compile Include="ListAdapter.cs" />
-    <Compile Include="Penalties.cs" />
-    <Compile Include="PlayerPositions.cs" />
-    <Compile Include="PlayerPositionsDetailActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -88,16 +85,16 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\Glossary.html" />
+    <AndroidAsset Include="Assets\A-Z Terms Glossary.html" />
     <AndroidAsset Include="Assets\default.css" />
-    <AndroidAsset Include="Assets\NFCNorth.html" />
-    <AndroidAsset Include="Assets\NFCSouth.html" />
-    <AndroidAsset Include="Assets\NFCEast.html" />
-    <AndroidAsset Include="Assets\NFCWest.html" />
-    <AndroidAsset Include="Assets\AFCEast.html" />
-    <AndroidAsset Include="Assets\AFCWest.html" />
-    <AndroidAsset Include="Assets\AFCNorth.html" />
-    <AndroidAsset Include="Assets\AFCSouth.html" />
+    <AndroidAsset Include="Assets\NFC North.html" />
+    <AndroidAsset Include="Assets\NFC South.html" />
+    <AndroidAsset Include="Assets\NFC East.html" />
+    <AndroidAsset Include="Assets\NFC West.html" />
+    <AndroidAsset Include="Assets\AFC East.html" />
+    <AndroidAsset Include="Assets\AFC West.html" />
+    <AndroidAsset Include="Assets\AFC North.html" />
+    <AndroidAsset Include="Assets\AFC South.html" />
     <AndroidAsset Include="Assets\Penalties.html" />
     <AndroidAsset Include="Assets\Player Positions.html" />
     <AndroidAsset Include="Assets\Football Teams\Arizona Cardinals.png" />

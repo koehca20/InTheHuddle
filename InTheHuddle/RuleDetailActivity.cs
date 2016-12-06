@@ -15,16 +15,19 @@ using Android.Widget;
 namespace InTheHuddle
 {
 	[Activity(Label = "")]
-	public class RuleGlossary : Activity
+	public class RuleDetailActivity : Activity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
-
+			string text = Intent.GetStringExtra("My Data") ?? "Data not available";
+			this.Title =text;
 			SetContentView(Resource.Layout.RuleDetail);
 
 			WebView lWebView = (WebView)FindViewById(Resource.Id.webView1);
-			lWebView.LoadUrl("file:///android_asset/Glossary.html");
+
+
+			lWebView.LoadUrl("file:///android_asset/"+text+".html");
 		}
 	}
 }

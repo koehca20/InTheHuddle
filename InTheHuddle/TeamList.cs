@@ -21,7 +21,11 @@ namespace InTheHuddle
 
 		protected override void OnListItemClick(ListView l, Android.Views.View v, int position, long id)
 		{
-			StartActivity(typeof(TeamDetailActivity));
+			var activity2 = new Intent(this, typeof(TeamDetailActivity));
+			activity2.PutExtra("My Data", l.GetItemAtPosition(position).ToString());
+
+			StartActivity(activity2);
+
 		}
 	}
 }

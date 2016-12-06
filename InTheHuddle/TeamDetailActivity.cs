@@ -19,11 +19,12 @@ namespace InTheHuddle
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
-
+			string text = Intent.GetStringExtra("My Data") ?? "Data not available";
+			this.Title = text;
 			SetContentView(Resource.Layout.TeamDetail);
 
 			WebView lWebView = (WebView)FindViewById(Resource.Id.webView1);
-			lWebView.LoadUrl("file:///android_asset/AFCEast.html");
+			lWebView.LoadUrl("file:///android_asset/"+text+".html");
 		}
 	}
 }
